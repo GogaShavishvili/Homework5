@@ -8,7 +8,28 @@ header{
 	height:100px;
 	border:1px solid red;
 	padding:22px 100px;
+	position: sticky;
+	top:0;
+	Left:0;
+	background: #fff;
+	z-index:2;
 }
+.header-css{
+	color: #FFF;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	text-decoration: none;
+	
+}
+
 
 .logo{
 	display:inline;
@@ -26,5 +47,124 @@ header{
 .book-btn{
 	padding: 13px 50px;
 	background: #FF5403;;
+}
+
+.main-banner{
+	width:100%;
+	height: 722px;
+}
+
+main{
+	position:relative;
+	z-index:1;
+}
+
+.text-addon{
+	position:absolute;
+	Left:0;
+	top:0;
+	text-align:center;
+	width:100%;
+	margin-top:300px;
+}
+.banner-name{
+	color: #FFF;
+	font-family: Inter;
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 6.72px;
+}
+
+.banner-name2{
+	color: #FFF;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.6px;
+}
+
+.dsc-btn{
+	display: flex;
+	width: 250px;
+	height: 66px;
+	padding: 13px 50px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-top: 100px;
+	margin-left: 700px;
+	border: px solid;
+	background: #FF5403;
+	color: #fff;
+}
+
+.top-places{
+	color: #041562;
+	text-align: center;
+	font-family: Inter;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	margin-top: 282px;
+}
+
+.tp-plc-txt{
+	color: #626262;
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.9px;
+}
+
+.first{
+	margin-top: 75px;
+	margin-left: 130px;
+}
+
+.second{
+	margin-top: 75px;
+	margin-left: 150px;
+}
+
+.third{
+	margin-left: 130px;
+	margin-top: 170px;
+}
+
+.fourth{
+	margin-left: 150px;
+}
+
+.top-hotels{
+	color: #041562;
+	text-align: center;
+	font-family: Inter;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	margin-top: 188px;
+
+}
+
+.top-hotels2{
+	color: #626262;
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.9px;
 }
 
